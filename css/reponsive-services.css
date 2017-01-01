@@ -1,0 +1,100 @@
+@media (min-width: 275px) and (max-width: 767px) {
+    #header-top {
+        text-align: center;
+        height: 70px;
+    }
+    .social {
+        text-align: center;
+    }
+    #root {
+        text-align: center;
+    }
+    .navbar-brand > img {
+        width: 140px;
+    }
+    .navbar-nav > li {
+        padding-left: 10px;
+    }
+    .carousel-caption {
+        padding-bottom: 0px;
+        top: -10%;
+    }
+    .carousel-control {
+        top: 35%;
+        font-size: 15px;
+    }
+    .carousel-caption h1 {
+        font-size: 16px;
+        margin-bottom: 9px;
+    }
+    .carousel-caption p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .carousel-button {
+        margin-top: 0px;
+    }
+    .carousel-caption .btn {
+        padding: 5px 5px;
+    }
+    .btn-default {
+        font-size: 10px;
+    }
+    .carousel-control.right {
+        right: 0%;
+    }
+    .carousel-control.left {
+        left: 0%;
+    }
+    .about {
+        margin-top: 30px;
+    }
+    #about h3 {
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    .about p {
+        font-size: 11px;
+    }
+    #counter {
+        height: auto;
+    }
+    #counter .centered {
+        margin: 0 auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .subscribe-btn {
+        color: #000;
+        padding: 10px 30px;
+        margin-bottom: 20px;
+    }
+    .explore-menu {
+        color: #FFF;
+        text-align: center;
+        margin-top: 20px;
+    }
+    #address {
+        height: auto;
+        padding-top: 45px;
+        font-size: 12px;
+    }
+    .recent-twitt {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .explore-menu {
+        color: #FFF;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .address-map {
+        text-align: center;
+    }
+    .address img {
+        margin: 0 auto;
+    }
+    .address p {
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CounterUP</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/reponsive-services.css">
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script>
+    jQuery(document).ready(function($) {
+        $('.counter').counterUp({
+            delay: 5,
+            time: 1500
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <section id="counter">
+        <!-- counter section starts -->
+        <div class="container">
+            <div class="centered">
+                <div class="col-md-3 col-lg-3 text-center">
+                    <div class="counterone">
+                        <span class="counter">1920</span>
+                    </div>
+                    <p>Happy Patients</p>
+                </div> 
+                <div class="col-md-3 col-lg-3 text-center">
+                    <div class="counterone">
+                        <span class="counter">320</span>
+                    </div>
+                    <p>Doctors and Nurses</p>
+                </div>
+                <div class="col-md-3 col-lg-3 text-center">
+                    <div class="counterone">
+                        <span class="counter">20</span>
+                    </div>
+                    <p>Years with You</p>
+                </div>
+                <div class="col-md-3 col-lg-3 text-center">
+                    <div class="counterone">
+                        <span class="counter">170</span>
+                    </div>
+                    <p>Total Service</p>
+                </div>
+            </div>
+        </div>
+        <!-- counter section ends -->
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
